@@ -15,13 +15,14 @@ const DashBoardLayout = () => {
               <h1>Marketing Consultants</h1>
               <div className="dashboard-button-flex">
                 <button className="dashboard-button">
-                  <i class="bi bi-plus fa-lg"></i>
+                  <i class="bi bi-plus dashboard-plus-button"></i>
                   <p>Add New Marketing Consultant</p>
                 </button>
               </div>
               <div className="dashboard-table-details">
                 <div className="dashboard-search-input">
                   <input placeholder="Search" className="search-input" />
+                  <i class="bi bi-search search-icon"></i>
                 </div>
                 <table>
                   <tr>
