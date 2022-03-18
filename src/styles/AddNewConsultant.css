@@ -1,0 +1,26 @@
+body {
+  overflow-x: hidden;
+}
+.dashboard-form-details {
+  padding-left: 70px;
+}
+
+.form-details-title {
+  font-size: 1.5rem;
+  color: #00932b;
+  font-family: Roboto;
+  padding-top: 2rem;
+}
+.add-consultant-form {
+  margin-top: 20px;
+}
+.form-control {
+  width: 50%;
+  border: none;
+  height: 40px;
+}
+
+.label-title {
+  font-size: 1rem;
+  color: #7e776e;
+}
