@@ -1,9 +1,10 @@
 import React from 'react'
 import DefaultLayout from '../../../src/DefaultLayout/DefaultLayout'
-import DashBoardNavbar from '../../../src/DashboardNavbar/DashboardNavbar'
+import DashBoardNavbar from '../../components/DashboardNavbar/DashboardNavbar'
 import '../../styles/DefaultLayout.css'
+import { Link } from 'react-router-dom'
 
-const DashBoardLayout = () => {
+const DASHBOARD = () => {
   return (
     <div>
       <div className="Dashboard-section">
@@ -14,10 +15,12 @@ const DashBoardLayout = () => {
             <div className="dashboard-table">
               <h1>Marketing Consultants</h1>
               <div className="dashboard-button-flex">
-                <button className="dashboard-button">
-                  <i class="bi bi-plus dashboard-plus-button"></i>
-                  <p>Add New Marketing Consultant</p>
-                </button>
+                <Link to="/add-new-consultant">
+                  <button className="dashboard-button">
+                    <i class="bi bi-plus dashboard-plus-button"></i>
+                    <p>Add New Marketing Consultant</p>
+                  </button>
+                </Link>
               </div>
               <div className="dashboard-table-details">
                 <div className="dashboard-search-input">
@@ -54,4 +57,4 @@ const DashBoardLayout = () => {
     </div>
   )
 }
-export default DashBoardLayout
+export default DASHBOARD

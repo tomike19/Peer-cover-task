@@ -1,11 +1,9 @@
-// import Login from './components/Login/Login'
-import DashBoardLayout from "./components/Dashboard/Dashboard"
+import AppRoutes from './routes/AppRoutes'
 
 function App() {
   return (
     <div className="App">
-      {/* <Login/> */}
-      <DashBoardLayout />
+      <AppRoutes />
     </div>
   )
 }

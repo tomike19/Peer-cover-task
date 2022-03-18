@@ -17,6 +17,9 @@ const DefaultLayout = () => {
         </nav>
       </div>
     </div>
+
+
+
   )
 }
 export default DefaultLayout

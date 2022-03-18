@@ -1,5 +1,5 @@
 import React from 'react'
-import admin from '../../src/images/admin.jpg'
+import admin from '../../../src/images/admin.jpg'
 const DashBoardNavbar = () => {
   return (
     <div className="dashboard-navbar">

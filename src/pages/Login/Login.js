@@ -2,6 +2,7 @@ import React from 'react'
 import 'antd/dist/antd.css'
 import { Input } from 'antd'
 import '../../styles/Login.css'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
   return (
@@ -26,7 +27,9 @@ const Login = () => {
           <div className="login-section-forgot-password">
             <p>Forgot Password?</p>
           </div>
-          <button className="login-section-button">Log In</button>
+          <Link to="/dashboard">
+            <button className="login-section-button">Log In</button>
+          </Link>
         </div>
       </section>
     </div>

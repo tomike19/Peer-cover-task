@@ -30,6 +30,7 @@
   display: flex;
   align-items: center;
   grid-column-gap: 1.125rem;
+  cursor: pointer;
 }
 .dashboard-navigation-link {
   font-size: 1rem;
@@ -43,6 +44,7 @@
 .dashboard-navigation-list-item > p {
   color: #afacab;
   font-family: Roboto;
+  margin: 0;
 }
 
 a {
@@ -79,10 +81,11 @@ a {
   font-weight: 600;
   font-family: Roboto;
   letter-spacing: 2px;
-  padding-top: 2px;
+  padding-top: 12px;
+  margin: 0;
 }
 .navigation-toggle {
-  margin-top: 17px;
+  margin-top: 14px;
   color: #c45656;
   cursor: pointer;
 }
@@ -115,8 +118,6 @@ a {
   background: #ecffeb;
 }
 
-.add-new-consultant {
-}
 .dashboard-table {
   width: 80%;
   margin: auto;
@@ -144,13 +145,18 @@ a {
   outline: none;
   border-radius: 20px;
   padding-left: 10px;
+  cursor: pointer;
 }
 .dashboard-button > p {
   font-size: 1rem;
   letter-spacing: 1px;
   font-family: Roboto;
+  margin-top: 10px;
 }
-
+.dashboard-plus-button {
+  padding-top: 4px;
+  font-size: 1.5rem;
+}
 .dashboard-table-details {
   width: 100%;
   background-color: #fff;
@@ -205,10 +211,6 @@ th {
   color: red;
 }
 
-.dashboard-plus-button {
-  padding-top: 10px;
-  font-size: 1.5rem;
-}
 @media screen and (max-width: 1200px) {
   .Default-layout-section {
     display: none;
@@ -218,9 +220,5 @@ th {
     width: 100%;
     height: 90vh;
     background: #ecffeb;
-  }
-  .dashboard-button-flex {
-    /* display: flex;
-  flex-direction: column; */
   }
 }
