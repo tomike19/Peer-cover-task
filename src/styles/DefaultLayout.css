@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed:wght@300;400&family=Roboto:wght@400;500&display=swap");
 .Default-layout {
   /* position: fixed; */
   display: flex;
@@ -84,7 +86,32 @@ a {
   height: 90vh;
   background: #ecffeb;
 }
+.navigation-toggle {
+  margin-top: 17px;
+  color: #f0d4d5;
+}
 
+.admin-profile {
+  margin-top: 10px;
+  display: flex;
+  gap: 0.5rem;
+  margin-right: 30px;
+}
+.admin-details {
+  display: flex;
+  gap: 0.5rem;
+}
+.admin-details > p {
+  margin-top: 3px;
+}
+.admin-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 90px;
+}
+
+.add-new-consultant {
+}
 .dashboard-table {
   width: 80%;
   margin: auto;
@@ -121,7 +148,33 @@ a {
 
 .dashboard-table-details {
   background-color: #fff;
+  height: 50vh;
+  margin-top: 30px;
 }
+
+.dashboard-search-input {
+  display: flex;
+  justify-content: flex-end;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 0px 20px 0px 20px;
+}
+
+td,
+th {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 20px;
+  color: #a6a891;
+}
+
+.trash-icon {
+  color: red;
+}
+
 @media screen and (max-width: 1200px) {
   .Default-layout-section {
     display: none;

@@ -1,7 +1,5 @@
 import React from "react";
 
-import DashboardIcon from '@mui/icons-material/Dashboard'
-
 const DefaultLayout = () => {
     return (
     <div>
@@ -11,7 +9,7 @@ const DefaultLayout = () => {
           <ul className="dashboard-navigation__list">
             <li className="dashboard-navigation-list-item">
               <a href="dashboard-navigation-link ">
-                <DashboardIcon />
+               <i class="bi bi-grid-1x2-fill"></i>
               </a>
               <p> DASHBOARD</p>
             </li>
