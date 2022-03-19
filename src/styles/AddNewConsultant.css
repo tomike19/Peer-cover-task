@@ -15,7 +15,7 @@ body {
   margin-top: 20px;
 }
 .form-control {
-  width: 50%;
+  width: 40%;
   border: none;
   height: 40px;
 }
@@ -23,4 +23,66 @@ body {
 .label-title {
   font-size: 1rem;
   color: #7e776e;
+}
+
+.form-select-gender {
+  width: 32%;
+  border: none;
+  height: 40px;
+  border-radius: 4px;
+  margin-left: 15px;
+}
+
+.form-address {
+  width: 32%;
+  height: 30%;
+  margin-left: 120px;
+}
+
+.create-marketer-button {
+  margin-left: 180px;
+  margin-top: 30px;
+}
+
+.create-button {
+  background-color: #00932b;
+  color: white;
+  height: 40px;
+  width: 330px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.address-title {
+  font-size: 1rem;
+  color: #7e776e;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .dashboard-form-details {
+    padding-left: 20px;
+  }
+  .form-select-gender {
+    width: 63%;
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+  }
+  .form-control {
+    width: 80%;
+    border: none;
+    height: 40px;
+  }
+  .form-address {
+    width: 60%;
+    height: 30%;
+    margin-left: 100px;
+  }
+  .create-marketer-button {
+  margin-left: 0px;
+  margin-top: 30px;
+}
 }

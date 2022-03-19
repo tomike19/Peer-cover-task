@@ -2,6 +2,8 @@ import React from 'react'
 import DefaultLayout from '../../DefaultLayout/DefaultLayout'
 import DashBoardNavbar from '../../components/DashboardNavbar/DashboardNavbar'
 import '../../styles/AddNewConsultant.css'
+import { Link } from 'react-router-dom'
+
 const AddNewConsultant = () => {
   return (
     <div>
@@ -96,16 +98,41 @@ const AddNewConsultant = () => {
                       />
                     </div>
                   </div>
-                  <select
-                    class="form-select"
-                    aria-label="Default select example"
-                  >
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
+                  <div class="form-group row">
+                    <label
+                      for="inputPassword3"
+                      class="col-sm-2 col-form-label label-title"
+                    >
+                      Gender
+                    </label>
+                    <select
+                      class="form-select form-select-gender"
+                      aria-label="Default select example"
+                    >
+                      <option selected> Select Gender</option>
+                      <option value="1">Female</option>
+                      <option value="2">Male</option>
+                    </select>
+                  </div>
+                  <div class="form-group row">
+                    <label
+                      for="exampleFormControlTextarea1 "
+                      className="address-title"
+                    >
+                      Address
+                    </label>
+                    <textarea
+                      class="form-control form-address"
+                      id="exampleFormControlTextarea1"
+                      rows="3"
+                    ></textarea>
+                  </div>
                 </form>
+                <Link to="/edit-marketer">
+                  <div className="create-marketer-button">
+                    <button className="create-button">CREATE MARKETER</button>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
