@@ -1,0 +1,83 @@
+.view-marketing-section {
+  width: 80%;
+  margin: auto;
+}
+
+.edit-marketing-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+}
+
+.edit-marketing-name {
+  text-align: center;
+}
+
+.view-marketing-form {
+  margin-left: 12rem;
+  /* margin-right: 2rem; */
+}
+
+.form-input {
+  width: 60%;
+  border: none;
+  height: 40px;
+}
+.profile-text {
+  border-bottom: 2px solid #c45656;
+  width: 8%;
+  color: #7e776e;
+  font-size: 1rem;
+  margin-top: 35px;
+}
+.select-gender {
+  width: 48%;
+  border: none;
+  height: 40px;
+  border-radius: 4px;
+  margin-left: 15px;
+}
+.form-address-text {
+  width: 46.5%;
+  height: 30%;
+  margin-left: 70px;
+}
+
+.update-marketer-button {
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 960px) {
+  .view-marketing-form {
+    margin-left: 0rem;
+    /* margin-right: 2rem; */
+  }
+  .dashboard-form-details {
+    padding-left: 20px;
+  }
+  .select-gender {
+    width: 63%;
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+  }
+  .form-input {
+    width: 80%;
+    border: none;
+    height: 40px;
+  }
+  .form-address-text {
+    width: 60%;
+    height: 30%;
+    margin-left: 100px;
+  }
+  .update-marketer-button {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+}

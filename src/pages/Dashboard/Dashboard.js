@@ -4,6 +4,7 @@ import DashBoardNavbar from '../../components/DashboardNavbar/DashboardNavbar'
 import '../../styles/DefaultLayout.css'
 import { Link } from 'react-router-dom'
 
+
 const DASHBOARD = () => {
   return (
     <div>
@@ -15,12 +16,12 @@ const DASHBOARD = () => {
             <div className="dashboard-table">
               <h1>Marketing Consultants</h1>
               <div className="dashboard-button-flex">
-                <Link to="/add-new-consultant">
-                  <button className="dashboard-button">
-                    <i class="bi bi-plus dashboard-plus-button"></i>
-                    <p>Add New Marketing Consultant</p>
-                  </button>
-                </Link>
+              <Link to="/add-new-consultant">
+                <button className="dashboard-button">
+                  <i class="bi bi-plus dashboard-plus-button"></i>
+                  <p>Add New Marketing Consultant</p>
+                </button>
+              </Link>
               </div>
               <div className="dashboard-table-details">
                 <div className="dashboard-search-input">
