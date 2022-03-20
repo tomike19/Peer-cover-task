@@ -48,12 +48,13 @@ body {
   background-color: #00932b;
   color: white;
   height: 40px;
-  width: 330px;
+  /* width: 330px; */
   border: none;
   outline: none;
   border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
+  padding: 0px 95px 0px 95px;
 }
 .address-title {
   font-size: 1rem;
@@ -61,7 +62,7 @@ body {
   padding-left: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   .dashboard-form-details {
     padding-left: 20px;
   }
@@ -77,12 +78,17 @@ body {
     height: 40px;
   }
   .form-address {
-    width: 60%;
+    width: 65%;
     height: 30%;
     margin-left: 100px;
   }
   .create-marketer-button {
-  margin-left: 0px;
-  margin-top: 30px;
-}
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  .form-address {
+    /* width: 32%; */
+    height: 30%;
+  }
 }
